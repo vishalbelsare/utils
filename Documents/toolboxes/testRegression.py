@@ -19,7 +19,8 @@ data = dm.dataManager(dataSet = datasets.load_boston(), normalize_data =True)
 
 #1. Linear composite
 compLR = cmp.ModelComparator(data, 'logloss')
-compLR.addModel('p=LR_s=LR', CompositeProbEstimator(LinearRegression(), LinearRegression(), 'normal' ))
+estimator =  CompositeProbEstimator(LinearRegression(), LinearRegression(), 'normal' )
+compLR.addModel('p=LR_s=LR', estimator)
 compLR.fit()
 compLR.evaluate()
 print(compLR )
