@@ -7,7 +7,7 @@ Created on Mon Jun 17 15:14:35 2019
 import numpy as np
 from sklearn.model_selection import RepeatedKFold
 
-from myPackage.lossFunctions import compositeDensityFunctors
+from proPack.lossFunctions import compositeDensityFunctors
         
 
 

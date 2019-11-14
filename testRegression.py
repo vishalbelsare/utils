@@ -10,9 +10,9 @@ from sklearn import datasets
 from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import normalize
 
-import myPackage.comparator as cmp
-import myPackage.dataManager as dm
-from myPackage.composite.compositeEstimator import CompositeProbEstimator
+import proPack.comparator as cmp
+import proPack.dataManager as dm
+from proPack.composite.compositeEstimator import CompositeProbEstimator
 
 
 data = dm.dataManager(dataSet = datasets.load_boston(), normalize_data =True)

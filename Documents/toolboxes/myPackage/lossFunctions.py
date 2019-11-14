@@ -2,7 +2,7 @@
 
 
 import numpy as np
-import myPackage.composite.compositeDensity as cd
+import proPack.composite.compositeDensity as cd
 
 
      

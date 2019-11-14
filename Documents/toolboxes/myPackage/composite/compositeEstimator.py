@@ -7,8 +7,8 @@ from sklearn.preprocessing import normalize
 
 import scipy.sparse as sp
 
-from myPackage.composite.compositeDensity import NormalCompositeDensity, LaplaceCompositeDensity
-from myPackage.regressor.dummyRegressor import DummyRegressor
+from proPack.composite.compositeDensity import NormalCompositeDensity, LaplaceCompositeDensity
+from proPack.regressor.dummyRegressor import DummyRegressor
 
 
 class CompositeProbEstimator(BaseEstimator) :

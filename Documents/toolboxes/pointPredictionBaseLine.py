@@ -11,10 +11,10 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import GridSearchCV
 
-import myPackage.comparator as cmp
-import myPackage.dataManager as dm
-from myPackage.regressor.dummyRegressor import DummyRegressor
-from myPackage.composite.compositeEstimator import CompositeProbEstimator, ClassicalBaseline, ConstantUninformedBaseline
+import proPack.comparator as cmp
+import proPack.dataManager as dm
+from proPack.regressor.dummyRegressor import DummyRegressor
+from proPack.composite.compositeEstimator import CompositeProbEstimator, ClassicalBaseline, ConstantUninformedBaseline
 
 #parameters
 CV = 5
